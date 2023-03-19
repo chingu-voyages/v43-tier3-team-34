@@ -46,6 +46,9 @@ export const authOptions: NextAuthOptions = {
     },
   },
   adapter: PrismaAdapter(prisma),
+  pages: {
+    newUser: '/api/auth/onboarding'
+  },
   providers: [
     EmailProvider({
       server: {

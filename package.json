@@ -8,6 +8,7 @@
     "postinstall": "prisma generate",
     "lint": "next lint",
     "start": "next start",
+    "makemigrations": "prisma migrate dev",
     "migrate": "prisma db push"
   },
   "dependencies": {
